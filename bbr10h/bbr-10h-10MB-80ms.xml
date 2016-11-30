@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<topology name="bbr-10h-10MB-80ms">
+	<TCP-PROT>bbr</TCP-PROT>
+	<duration>600</duration>
+	<hosts>
+		<host>h1</host>
+		<host>h2</host>
+		<host>h3</host>
+		<host>h4</host>
+		<host>h5</host>
+		<host>h6</host>
+		<host>h7</host>
+		<host>h8</host>
+		<host>h9</host>
+		<host>h10</host>
+	</hosts>
+	<switches>
+		<switch>s1</switch>
+		<switch>s2</switch>
+	</switches>
+	<links>
+		<link n1="h1" n2="s1"></link>
+		<link n1="h2" n2="s1"></link>
+		<link n1="h3" n2="s1"></link>
+		<link n1="h4" n2="s1"></link>
+		<link n1="h5" n2="s1"></link>
+		<link n1="h6" n2="s2"></link>
+		<link n1="h7" n2="s2"></link>
+		<link n1="h8" n2="s2"></link>
+		<link n1="h9" n2="s2"></link>
+		<link n1="h10" n2="s2"></link>
+		<backbone n1="s2" n2="s1">
+			<bandwidth>10</bandwidth>
+			<delay>80</delay>
+		</backbone>
+	</links>
+	<iperf>
+		<node type="server">h1</node>
+		<node type="server">h2</node>
+		<node type="server">h3</node>
+		<node type="server">h4</node>
+		<node type="server">h5</node>
+		<node type="client" delay="0" server="h1">h6</node>
+		<node type="client" delay="100" server="h2">h7</node>
+		<node type="client" delay="200" server="h3">h8</node>
+		<node type="client" delay="300" server="h4">h9</node>
+		<node type="client" delay="400" server="h5">h10</node>
+	</iperf>
+</topology>

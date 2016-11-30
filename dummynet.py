@@ -75,7 +75,7 @@ class Dummynet( Topo ):
 		delay_d = backbone_d[0].getElementsByTagName("delay")[0].firstChild.data
 		
 		
-		self.addLink(nodes[backbone_d[0].getAttribute("n1")],nodes[backbone_d[0].getAttribute("n2")],bw=int(bw_d),delay=delay_d)
+		self.addLink(nodes[backbone_d[0].getAttribute("n1")],nodes[backbone_d[0].getAttribute("n2")],bw=int(bw_d),delay=delay_d+'ms')
 		
 		
 		iperf_d = doc.getElementsByTagName("iperf")
@@ -120,14 +120,14 @@ class Dummynet( Topo ):
 			if int(clients[key][1])>0:
 				h.cmd('`sleep '+clients[key][1]+';iperf -c '+s.IP()+' -p 10001 -t '+str(self.duration-int(clients[key][1]))+' > '+self.prot+"/"+self.name+'-client-'+key+'` &')
 			else:
-				h.cmd('iperf -c '+s.IP()+' -p 10001 -t '+str(self.duration-int(clients[key][1]))+' > '+self.prot+"/"+self.name+'-client-'+key+' &')
-			h.cmd('pid'+key+'=$!')
+				h.cmd('iperf -c '+s.IP()+' -p 10001 -t '+str(self.duration)+' > '+self.prot+"/"+self.name+'-client-'+key+' &')
+			h.cmd('pidiperf'+key+'=$!')
 	
 	def isIperfOn(self,net):
 		b= False
 		for key in clients.keys():
 			h = net.get(key)
-			result = h.cmd('ps -aux | grep $pid'+key+' | grep -v "grep"')
+			result = h.cmd('ps -aux | grep $pidiperf'+key+' | grep -v "grep"')
 			b = b or result
 		#~ result3 = h6.cmd('ps -aux | grep $pidh6 | grep -v "grep"')
 		#~ if(result1 or result2 or result3):
@@ -143,7 +143,8 @@ class Dummynet( Topo ):
 			f = open(self.prot+"/"+self.name+"cwnd"+key, "w")
 			st = open(self.prot+"/"+self.name+"ssthresh"+key, "w")
 			rt = open(self.prot+"/"+self.name+"ret"+key, "w")
-			files[key] =  [h,f,st,rt]
+			rtt = open(self.prot+"/"+self.name+"rtt"+key, "w")
+			files[key] =  [h,f,st,rt,rtt]
 		return files
 		
 def perfTest():
@@ -157,10 +158,9 @@ def perfTest():
 	print "Testing network connectivity"
 	net.pingAll()
 	print "Testing bandwidth between h1 and h4"
-	#~ h1, h2, h3, h4, h5, h6 = net.get('h1','h2', 'h3', 'h4','h5','h6')
-#	CLI(net)
+	#h1, h2, h3, h4 = net.get('h1','h2', 'h3', 'h4')
+	#CLI(net)
 #	net.iperf((h1, h4))
-#	net.ping ((h1, h4))
 	#~ print "Inserting tcp probe"
 #	start_tcpprobe()
 #	h1.cmd('rmmod tcp_probe > /dev/null 2>&1;modprobe tcp_probe port=10001')
@@ -199,6 +199,7 @@ def perfTest():
 	#~ f3 = open("cwnd3", "w")
 	p = re.compile('cwnd:\d+')
 	p2 = re.compile('ssthresh:\d+')
+	p3 = re.compile('rtt:\d+\.\d+')
 	cwnd_b = True
 	while (topo.isIperfOn(net) and cwnd_b):
 		cwnd_b = False
@@ -212,6 +213,11 @@ def perfTest():
 			except:
 				print "cwnd "+key+" empty"
 				cwnd_b = cwnd_b or False
+			rtt = p3.findall(result)
+			try:
+				files[key][4].write( rtt[0]+"\n")
+			except:
+				print "rtt "+key+" empty"
 			ret1 = files[key][0].cmd('netstat -s | grep retransmited')
 			try:
 				files[key][3].write( ret1+"\n")
