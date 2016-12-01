@@ -6,6 +6,7 @@ from mininet.util import dumpNodeConnections
 from mininet.log import setLogLevel
 from mininet.cli import CLI  
 from xml.dom import minidom
+from mininet.node import OVSController
 import time
 import os
 from subprocess import Popen, PIPE 
@@ -127,7 +128,7 @@ def perfTest():
 	"Create network and run simple performance test"
 	topo = Dummynet()
 	os.system("sudo sysctl -w net.ipv4.tcp_congestion_control="+topo.tcp)
-	net = Mininet(topo=topo, link=TCLink)
+	net = Mininet(topo=topo, link=TCLink, controller= OVSController)
 	net.start()
 	print "Dumping host connections"
 	dumpNodeConnections(net.hosts)
