@@ -1,4 +1,10 @@
-python dummynet.py bbr4h bbr-4h-10MB-40ms.xml
-python dummynet.py bbr4h bbr-4h-10MB-80ms.xml
-python dummynet.py bbr4h bbr-4h-10MB-160ms.xml
-python dummynet.py bbr4h bbr-4h-10MB-320ms.xml
+#!/bin/bash
+
+
+
+for entry in "$1"/*.xml
+do
+  ./run_exp.sh $1 `basename $entry`
+done
+
+

@@ -1,46 +1,57 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from xml.dom import minidom
-direct = "../TCPEVAL/bbr10h/"
-doc = minidom.parse(direct+"bbr-10h-10MB-40ms.xml")
+import sys
+
+servers = []
+clients = {}
+direct = sys.argv[1]
+XML = sys.argv[2]
+
+doc = minidom.parse(direct+"/"+XML)
 name = doc.getElementsByTagName("topology")[0].getAttribute("name")
-h6=[]
-for l in open(direct+name+"cwndh6").xreadlines():
-	fields = l.strip().split(':')
-#	print fields
-	h6.append(int(fields[1]))
 
-h7=[]
-for l in open(direct+name+"cwndh7").xreadlines():
-	fields = l.strip().split(':')
-#	print fields
-	h7.append(int(fields[1]))
+backbone_d = doc.getElementsByTagName("backbone")
+bw_d = backbone_d[0].getElementsByTagName("bandwidth")[0].firstChild.data
 
-h7=[]
-for l in open(direct+name+"cwndh7").xreadlines():
-	fields = l.strip().split(':')
-#	print fields
-	h7.append(int(fields[1]))
+iperf_d = doc.getElementsByTagName("iperf")
+		
+nodes_d = iperf_d[0].getElementsByTagName("node")
+for node in nodes_d:
+	if node.getAttribute("type") == "server":
+		servers.append(node.firstChild.data)
+	else:
+		clients[node.firstChild.data] = [node.getAttribute("server"),node.getAttribute("delay")]
+
+data = {}
+
+for h in clients.keys():
+	array=[]
+	for l in open(direct+"/data/"+name+"cwnd"+h).xreadlines():
+		fields = l.strip().split(':')
+		array.append(int(fields[1]))
+	data[h]=array
 	
-N6 = len(h6)
-ind6 = np.arange(N6)
 
-N7 = len(h7)
-ind7 = np.arange(N7)
-
-
-#print cwnd
 
 
 fig = plt.figure()
 axes = plt.gca()
-#~ axes.set_xlim([xmin,xmax])
-#	axes.set_ylim([14.4,14.5])
-#~ axes.set_xlim([0,N1])
+
 ax = fig.add_subplot(111)
-plt1,=ax.plot(ind6/2,h6,label='flow 1')
-plt2,=ax.plot(ind7/2+100,h7,label='flow 2')
+
+i = 1
+plts = []
+
+for h in clients.keys():
+	N = len(data[h])
+	ind = np.arange(N)
+	delay = clients[h][1]
+	plot,=ax.plot(ind/2+int(delay),data[h],label='flow'+str(i))
+	plts.append(plot)
+	i = i+1
+
 plt.ylabel('cwnd')
 plt.xlabel('time(s)')
-plt.legend(handles=[plt1,plt2])
-fig.savefig(name+"-cwnd.pdf")
+plt.legend(handles=plts)
+fig.savefig(direct+"/plots/"+name+"-cwnd.pdf")

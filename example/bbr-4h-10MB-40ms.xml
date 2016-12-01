@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<topology name="cubic-4h-10MB-40ms">
-	<TCP-PROT>cubic</TCP-PROT>
-	<duration>1200</duration>
+<topology name="bbr-4h-10MB-40ms">
+	<TCP-PROT>bbr</TCP-PROT>
+	<duration>300</duration>
 	<hosts>
 		<host>h1</host>
 		<host>h2</host>

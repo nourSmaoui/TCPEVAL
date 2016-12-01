@@ -1,44 +1,60 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from xml.dom import minidom
-direct = "../TCPEVAL/bbr10h/"
-doc = minidom.parse(direct+"bbr-10h-10MB-40ms.xml")
+import sys
+
+servers = []
+clients = {}
+direct = sys.argv[1]
+XML = sys.argv[2]
+
+doc = minidom.parse(direct+"/"+XML)
 name = doc.getElementsByTagName("topology")[0].getAttribute("name")
-h6=[]
-for l in open(direct+name+"rtth3").xreadlines():
-	fields = l.strip().split(':')
-#	print fields
-	h6.append(float(fields[1])/2)
 
-h7=[]
-for l in open(direct+name+"rtth4").xreadlines():
-	fields = l.strip().split(':')
-#	print fields
-	h7.append(float(fields[1])/2)
+backbone_d = doc.getElementsByTagName("backbone")
+bw_d = backbone_d[0].getElementsByTagName("bandwidth")[0].firstChild.data
+delay_d = backbone_d[0].getElementsByTagName("delay")[0].firstChild.data
 
-	
-N6 = len(h6)
-ind6 = np.arange(N6)
+iperf_d = doc.getElementsByTagName("iperf")
+		
+nodes_d = iperf_d[0].getElementsByTagName("node")
+for node in nodes_d:
+	if node.getAttribute("type") == "server":
+		servers.append(node.firstChild.data)
+	else:
+		clients[node.firstChild.data] = [node.getAttribute("server"),node.getAttribute("delay")]
+		
+data = {}
 
-N7 = len(h7)
-ind7 = np.arange(N7)
+for h in clients.keys():
+	array=[]
+	for l in open(direct+"/data/"+name+"rtt"+h).xreadlines():
+		fields = l.strip().split(':')
+		array.append(float(fields[1])/2)
+	data[h]=array
 
+N1 = len(data[clients.keys()[0]])
+ind1 = np.arange(N1)
 
-#print cwnd
+g = lambda x: int(delay_d) * 2
+rtt = [g(x) for x in ind1]
 
-g = lambda x: 320 * 2
-h = [g(x) for x in ind6]
-
+i = 1
+plts =[]
 fig = plt.figure()
 axes = plt.gca()
-#~ axes.set_xlim([xmin,xmax])
-#	axes.set_ylim([14.4,14.5])
-#~ axes.set_xlim([0,N1])
 ax = fig.add_subplot(111)
-plt1,=ax.plot(ind6/2+10,h6,label='flow 1')
-plt2,=ax.plot(ind7/2+100,h7,label='flow 2')
-plt3,=ax.plot(ind6/2,h,label='ref')
+
+for h in clients.keys():
+	N = len(data[h])
+	ind = np.arange(N)
+	delay = clients[h][1]
+	plot,=ax.plot(ind/2+int(delay),data[h],label='flow'+str(i))
+	plts.append(plot)
+	i = i+1
+
+plt3,=ax.plot(ind1/2,rtt,label='ref')
 plt.ylabel('rtt')
 plt.xlabel('time(s)')
-plt.legend(handles=[plt1,plt2])
-fig.savefig(name+"-rtt.pdf")
+plt.legend(handles=plts)
+fig.savefig(direct+"/plots/"+name+"-rtt.pdf")
