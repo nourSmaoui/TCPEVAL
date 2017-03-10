@@ -65,10 +65,12 @@ if(iperf_e == True):
 		N = len(data[h])
 		ind = np.arange(N)
 		delay = clients[h][1]
-		plot,=ax.plot(ind/2+int(delay),data[h],label='flow'+str(i))
+		plot,=ax.plot(ind/2+float(delay),data[h],label='flow'+str(i))
 		plts.append(plot)
 		i = i+1
-
+	
+	axes.set_ylim([0,2000])
+	ax.set_autoscaley_on(False)
 	plt.ylabel('cwnd')
 	plt.xlabel('time(s)')
 	plt.legend(handles=plts)

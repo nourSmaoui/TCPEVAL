@@ -46,7 +46,7 @@ if(iperf_e == True):
 
 	for h in servers:
 		array=[]
-		for l in open(direct+"/data/"+name+"-dash-thr"+h).xreadlines():
+		for l in open(direct+"/data/"+name+"-server-"+h).xreadlines():
 		#	print l.find("bits/sec")
 			if(l.find("bits/sec")>=0):
 				fields = l.strip().split(' ')
@@ -74,7 +74,7 @@ if(iperf_e == True):
 		for c in clients:
 			if clients[c][0] == h :
 				delay = clients[c][1]
-		plot,=ax.plot(2*ind+int(delay),data[h],label='flow'+str(i))
+		plot,=ax.plot(2*ind+float(delay),data[h],label='flow'+str(i))
 		plts.append(plot)
 		i = i+1
 		

@@ -1,0 +1,7 @@
+------------------------------------------------------------
+Client connecting to 10.0.0.1, TCP port 10001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 33058 connected with 10.0.0.1 port 10001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-1200.5 sec  4.91 GBytes  35.1 Mbits/sec

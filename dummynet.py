@@ -79,7 +79,9 @@ class Dummynet( Topo ):
 		delay_d = backbone_d[0].getElementsByTagName("delay")[0].firstChild.data
 		
 		
-		self.addLink(nodes[backbone_d[0].getAttribute("n1")],nodes[backbone_d[0].getAttribute("n2")],bw=int(bw_d),delay=delay_d+'ms')
+		#self.addLink(nodes[backbone_d[0].getAttribute("n1")],nodes[backbone_d[0].getAttribute("n2")],bw=int(bw_d),delay=delay_d+'ms',max_queue_size=round(int(bw_d)*int(delay_d)*0.034)) #20% BDP
+		self.addLink(nodes[backbone_d[0].getAttribute("n1")],nodes[backbone_d[0].getAttribute("n2")],bw=int(bw_d),delay=delay_d+'ms',max_queue_size=round(int(bw_d)*int(delay_d)*0.17)) #100%BDp
+		#self.addLink(nodes[backbone_d[0].getAttribute("n1")],nodes[backbone_d[0].getAttribute("n2")],bw=int(bw_d),delay=delay_d+'ms')
 		
 		
 		iperf_d = doc.getElementsByTagName("iperf")
@@ -125,8 +127,11 @@ class Dummynet( Topo ):
 			for key in clients.keys():
 				h = net.get(key)
 				s = net.get(clients[key][0])
-				if int(clients[key][1])>0:
-					h.cmd('`sleep '+clients[key][1]+';iperf -c '+s.IP()+' -p 10001 -t '+str(self.duration-int(clients[key][1]))+' > '+self.prot+"/data/"+self.name+'-client-'+key+'` &')
+				if float(clients[key][1])>0:
+					if(float(clients[key][1]) > 1):
+						h.cmd('`sleep '+clients[key][1]+';echo New connection > /dev/kmsg;iperf -c '+s.IP()+' -p 10001 -t '+str(self.duration-int(clients[key][1]))+' > '+self.prot+"/data/"+self.name+'-client-'+key+'` &')
+					else:
+						h.cmd('`./delay '+clients[key][1]+';echo New connection > /dev/kmsg;iperf -c '+s.IP()+' -p 10001 -t '+str(self.duration-float(clients[key][1]))+' > '+self.prot+"/data/"+self.name+'-client-'+key+'` &')
 				else:
 					h.cmd('iperf -c '+s.IP()+' -p 10001 -t '+str(self.duration)+' > '+self.prot+"/data/"+self.name+'-client-'+key+' &')
 				h.cmd('pidiperf'+key+'=$!')
