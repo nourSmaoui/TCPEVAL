@@ -1,0 +1,2613 @@
+Serving HTTP on 0.0.0.0 port 80 ...
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+10.0.0.3 - - [13/Dec/2016 14:34:28] "GET /BigBuckBunny/4sec/bunny_3936261bps/BigBuckBunny_4s_init.mp4 HTTP/1.1" 200 -
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+10.0.0.3 - - [13/Dec/2016 14:35:07] "GET /BigBuckBunny/4sec/bunny_3936261bps/BigBuckBunny_4s10.m4s HTTP/1.1" 200 -
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+10.0.0.3 - - [13/Dec/2016 14:40:30] "GET /BigBuckBunny/4sec/bunny_2409742bps/BigBuckBunny_4s92.m4s HTTP/1.1" 200 -
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+10.0.0.3 - - [13/Dec/2016 14:40:35] "GET /BigBuckBunny/4sec/bunny_2409742bps/BigBuckBunny_4s93.m4s HTTP/1.1" 200 -
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+
+    0 segments retransmited
+

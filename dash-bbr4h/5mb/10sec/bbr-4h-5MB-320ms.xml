@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<topology name="bbr-4h-5MB-320ms">
+	<TCP-PROT>bbr</TCP-PROT>
+	<duration>700</duration>
+	<hosts>
+		<host>h1</host>
+		<host>h2</host>
+		<host>h3</host>
+		<host>h4</host>
+	</hosts>
+	<switches>
+		<switch>s1</switch>
+		<switch>s2</switch>
+	</switches>
+	<links>
+		<link n1="h1" n2="s1"></link>
+		<link n1="h2" n2="s1"></link>
+		<link n1="h3" n2="s2"></link>
+		<link n1="h4" n2="s2"></link>
+		<backbone n1="s2" n2="s1">
+			<bandwidth>5</bandwidth>
+			<delay>320</delay>
+		</backbone>
+	</links>
+	<dash>
+		<node type="server" port="80" size="10">h1</node>
+		<node type="server" port="80" size="10">h2</node>
+		<node type="client" delay="0" server="h1">h3</node>
+		<node type="client" delay="100" server="h2">h4</node>
+	</dash>
+</topology>
